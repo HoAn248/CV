@@ -11,8 +11,9 @@ body{
 #main{
     margin: 1rem auto;
     width: 80rem;
-    height: 100rem;
+    /* height: 100rem; */
     background-color: bisque;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 header{
     background: linear-gradient(to bottom left,#3c4353 80%,#dae1eb 20%);
