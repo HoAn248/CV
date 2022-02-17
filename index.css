@@ -7,6 +7,7 @@ html{
 }
 body{
     background-color: wheat;
+    font-family: arial;
 }
 #main{
     margin: 1rem auto;
@@ -79,7 +80,7 @@ nav .ttlh span{
     padding: 1rem 3rem;
     color: white;
     font-weight: 900;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
     border-radius: 2rem 0 0 2rem;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
@@ -96,7 +97,7 @@ nav .ttlh ul li:first-child{
     padding: 1rem 3rem;
     color: white;
     font-weight: 900;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
     border-radius: 2rem 0 0 2rem;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
@@ -156,7 +157,7 @@ nav .ttlh ul li:first-child{
     padding: 1rem 3rem;
     color: white;
     font-weight: 900;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
     border-radius: 2rem 0 0 2rem;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
@@ -179,17 +180,20 @@ nav .ttlh ul li:first-child{
     font-weight: bold;
 }
 .content-list h3{
+    opacity: 0.8;
     padding-top: 1rem;
     font-size: 1.6rem;
     font-weight: bold;
 }
 
 .content-list h4{
+    opacity: 0.8;
     padding-top: 1rem;
     font-size: 1.5rem;
     font-weight: bold;
 }
 .content-list h5{
+    opacity: 0.8;
     padding-top: 1rem;
     font-size: 1.3rem;
     font-weight: normal;
@@ -197,7 +201,3 @@ nav .ttlh ul li:first-child{
 .content-hocvan{
     padding-bottom: 3rem;
 }
-/* .content-hocvan a{
-    font-size: 1.5rem;
-    font-weight: bold;
-} */
