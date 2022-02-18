@@ -10,7 +10,12 @@
 </head>
 
 <body>
-    <div id="main">
+    <audio autoplay>
+        <source preload src="./audio/Heat Waves.mp3" type="">
+    </audio>
+    <div id="main" style="position: relative;">
+        <img class="volume" style="width: 40px; position: absolute; right: -6rem; top: 1rem; cursor: pointer;"
+            src="./icon/sound.png" alt="">
         <header class="row">
             <div class="head-name">
                 <h1>Ho Duc An</h1>
@@ -31,7 +36,8 @@
                         <li><img src="./icon/mail.png" alt=""> hda24082002@gmail.com</li>
                         <li><img src="./icon/maps-and-flags.png" alt=""> Gia Lai</li>
                         <li><img src="./icon/facebook.png" alt=""> <a target="_blank"
-                                href="https://www.facebook.com/profile.php?id=100011614929760">Facebook (click here!) </a>
+                                href="https://www.facebook.com/profile.php?id=100011614929760">Facebook (click here!)
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -94,13 +100,33 @@
                 <div class="content-hocvan">
                     <h2>SOME DIY PRODUCTS</h2>
                     <h3><a target="_blank" href="https://hoan248.github.io/Music/">- Ngao Music (Click here!) </a></h3>
-                    <h3><a target="_blank" href="https://hoan248.github.io/KhoaHoc/">- Khoa Hoc Lap Trinh (Click here!) </a></h3>
+                    <h3><a target="_blank" href="https://hoan248.github.io/KhoaHoc/">- Khoa Hoc Lap Trinh (Click here!)
+                        </a></h3>
                     <h3><a target="_blank" href="https://hoan248.github.io/CV/">- My CV (Click here!) </a></h3>
                 </div>
             </div>
         </div>
 
     </div>
+
+
+    <script>
+        const audio = document.querySelector('audio')
+        const setVolume = document.querySelector('.volume')
+        let check = true
+        setVolume.onclick = () => {
+            if (check) {
+                setVolume.src = './icon/mute.png'
+                check = false
+                audio.volume = 0
+            }
+            else {
+                setVolume.src = './icon/sound.png'
+                check = true
+                audio.volume = 1
+            }
+        }
+    </script>
 </body>
 
 </html>
