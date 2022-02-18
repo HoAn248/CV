@@ -10,9 +10,6 @@
 </head>
 
 <body>
-    <audio autoplay>
-        <source preload src="./audio/Heat Waves.mp3" type="">
-    </audio>
     <div id="main" style="position: relative;">
         <img class="volume" style="width: 40px; position: absolute; right: -6rem; top: 1rem; cursor: pointer;"
             src="./icon/sound.png" alt="">
@@ -108,25 +105,11 @@
         </div>
 
     </div>
-
-
-    <script>
-        const audio = document.querySelector('audio')
-        const setVolume = document.querySelector('.volume')
-        let check = true
-        setVolume.onclick = () => {
-            if (check) {
-                setVolume.src = './icon/mute.png'
-                check = false
-                audio.volume = 0
-            }
-            else {
-                setVolume.src = './icon/sound.png'
-                check = true
-                audio.volume = 1
-            }
-        }
-    </script>
+    <audio autoplay loop>
+        <source src="./audio/HeatWaves.mp3" type="">
+    </audio>
+    <script src="./index.js"></script>
 </body>
+
 
 </html>
