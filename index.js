@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let check = true
     setTimeout(()=>{
     audio.play()
-    },2000)
+    },4000)
     setVolume.onclick = () => {
         if (check) {
             setVolume.src = './icon/mute.png'
